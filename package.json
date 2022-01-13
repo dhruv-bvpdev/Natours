@@ -4,7 +4,7 @@
   "description": "Landing page for tourism company",
   "main": "index.js",
   "scripts": {
-    "client": "http-server .",
+    "client": "http-server -c-1",
     "compile:sass": "node-sass sass/main.scss css/style.css -w",
     "dev": "concurrently \"yarn run compile:sass\" \"yarn run client\""
   },
