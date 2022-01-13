@@ -1,0 +1,19 @@
+{
+  "name": "Natours",
+  "version": "1.0.0",
+  "description": "Landing page for tourism company",
+  "main": "index.js",
+  "scripts": {
+    "client": "http-server .",
+    "compile:sass": "node-sass sass/main.scss css/style.css -w",
+    "dev": "concurrently \"yarn run compile:sass\" \"yarn run client\""
+  },
+  "author": "Dhruv Gursahani",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "concurrently": "^7.0.0",
+    "http-server": "^14.1.0",
+    "node-sass": "^7.0.1"
+  }
+}
