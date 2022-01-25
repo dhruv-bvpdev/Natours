@@ -12,6 +12,9 @@ node_modules/
 # production
 /build
 build/
+style.comp.css
+style.concat.css
+style.prefix.css
 
 # misc
 .DS_Store
